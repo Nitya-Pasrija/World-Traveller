@@ -1,2 +1,4 @@
-# World-Travel
-A travel memory capturing webapp for your faraway friends and family
+# World Travel Pin Locator
+Collaborate and pin key memory moments at a particular place and share with your long distance friends and family members.
+
+
