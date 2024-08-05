@@ -1,0 +1,24 @@
+name: 🚀 Feature request
+description: Suggest an idea 💡
+title: "Feature: "
+labels: [👀 needs triage, 💡 feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Heya! Thank you for taking the time to fill out this feature request!
+  - type: textarea
+    attributes:
+      label: Current behavior
+      description: Is your feature request related to a problem? Please describe.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Suggested solution
+      description: Describe the solution you'd like to implement.
+  - type: input
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem or helpful links here.

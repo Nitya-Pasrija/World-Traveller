@@ -1,0 +1,36 @@
+name: Bug Report
+description: Create a bug report to help me improve
+title: "Bug: "
+labels: [👀 needs triage, 🐛 bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        In case of a bug, do fill out the following form fields.
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Describe how to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        This will help get a better understanding of the issue.
+  - type: textarea
+    attributes:
+      label: Do you have any screenshots?
+      description: A clear image depicting the issue would be apt. If not available, write N/A.
+    validations:
+      required: false
